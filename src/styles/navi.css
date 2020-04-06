@@ -1,0 +1,21 @@
+nav {
+    height: 10vh;
+    display: flex;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+}
+.nav_div, .nav_list {
+    width: 50%;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    list-style-type: none;
+    font-size: 16px;
+}
+.nav-link {
+    font-size: 2em;
+}
